@@ -6,8 +6,12 @@ const Pricing = () => {
         <section id="pricing" className="mt-5">
             <div className="container-lg">
                 <div className="text-center">
-                <h2>Sports Membership</h2>
-                <p className="lead text-muted">Choose a plan that suit you.</p>
+                    <h2>Sports Membership</h2>
+                    <p className="lead text-muted">Choose a plan that suit you.</p>
+                </div>
+
+                <div className="text-center mt-3">
+                    <p className="text-muted">Validity: August 2023 - June 2024</p>
                 </div>
 
                 <div className="row my-5 g-0 align-items-center justify-content-center">

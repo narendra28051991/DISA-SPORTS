@@ -57,6 +57,7 @@ const Contact = () => {
                   id="email"
                   className="form-control"
                   placeholder="e.g. william@example.com"
+                  required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -77,6 +78,7 @@ const Contact = () => {
                   id="name"
                   className="form-control"
                   placeholder="e.g. William"
+                  required
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                 />
@@ -109,6 +111,7 @@ const Contact = () => {
                   id="query"
                   style={{ height: 140 + 'px' }}
                   placeholder="query"
+                  required
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
                 ></textarea>

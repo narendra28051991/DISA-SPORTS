@@ -32,7 +32,7 @@ const Navbar = () => {
                     <Link className="nav-link" href="#pricing">Pricing</Link>
                     </li>
                     <li className="nav-item ms-2 d-none d-md-inline">
-                    <Link className="btn btn-secondary" href="#pricing">Join</Link>
+                    <Link className="btn btn-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSfH4MaKBC9a_xzcj_aEyo_SroLzJEi19RKmN-1_48fbgfUB7w/viewform">Join</Link>
                     </li>
                     
                 </ul>

@@ -12,7 +12,7 @@ const Accordion = () => {
                 </h2>
                 <div id="chapter-1" className="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapters">
                     <div className="accordion-body">
-                        <div className="row bg-info text-light p-3">
+                        <div className="row bg-success text-light p-3">
                             <div className="col-lg-8">
                                 <div className="mb-4">
                                     <h4 className="fw-bold"><i className="bi-credit-card"></i> MobilePay:</h4>
@@ -44,7 +44,7 @@ const Accordion = () => {
                 </h2>
                 <div id="chapter-2" className="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
                     <div className="accordion-body">
-                        <div className="row bg-info text-light p-3">
+                        <div className="row bg-warning text-light p-3">
                             <div className="col-lg-8">
                                 <h4>Celebrations</h4>
                                 <p><strong><i className="bi-calendar-event mx-4"></i> Diwali</strong></p>
@@ -78,12 +78,12 @@ const Accordion = () => {
                     <div className="accordion-body">
                         <div className="row bg-secondary text-light p-3">
                             <div className="col-lg-8">
-                                <h4>Carroms & Chess</h4>
-                                <p><strong><i className="bi-person-fill"></i> Yuvaraj Eswaramoorthy</strong></p>
-                                <p><strong><i className="bi-telephone-fill"></i> +45 71568296</strong></p>
                                 <p><strong><i className="bi-calendar3"></i> Monday</strong></p>
                                 <p><strong>Timings:</strong> 17:30 - 19:30</p>
                                 <p><strong><i className="bi-geo-alt-fill"></i> Ole Rømer-Skolen, Gadehavegårdsvej 1, 2630 Taastrup</strong></p>
+                                <h4 className="text-decoration-underline">Attentive Person</h4>
+                                <p><strong><i className="bi-person-fill"></i> Yuvaraj Eswaramoorthy</strong></p>
+                                <p><strong><i className="bi-telephone-fill"></i> +45 71568296</strong></p>
                             </div>
                             <div className="col-lg-4">
                                 <Image src="/assets/carroms.jpg" width={200} height={300} className="img-fluid" alt="get-paid" />
@@ -102,17 +102,18 @@ const Accordion = () => {
                     <div className="accordion-body">
                         <div className="row bg-secondary text-light p-3">
                             <div className="col-lg-8">
-                                <h4>Badminton</h4>
-                                <p><strong><i className="bi-person-fill"></i> Vinod Kumar MS</strong></p>
-                                <p><strong><i className="bi-telephone-fill"></i> +45 20634927</strong></p>
                                 <p><strong><i className="bi-calendar3"></i> Wednesday</strong></p>
                                 <p><strong>Timings:</strong> 17:00 - 20:00</p>
                                 <p className="mb-4"><strong><i className="bi-geo-alt-fill"></i> Hall, Ole Rømer-Skolen, Gadehavegårdsvej 1, 2630 Taastrup</strong></p>
-                                <p><strong><i className="bi-person-fill"></i> Sujan Kumar Saha</strong></p>
-                                <p><strong><i className="bi-telephone-fill"></i> +45 71316770</strong></p>
+                                <h4 className="text-decoration-underline">Attentive Person</h4>
+                                <p><strong><i className="bi-person-fill"></i> Vinod Kumar MS</strong></p>
+                                <p><strong><i className="bi-telephone-fill"></i> +45 20634927</strong></p>
                                 <p><strong><i className="bi-calendar3"></i> Friday</strong></p>
                                 <p><strong>Timings:</strong> 18:00 - 20:00</p>
                                 <p><strong><i className="bi-geo-alt-fill"></i> Læringshuset, Skolebakken 1, 2640 Hedehusene</strong></p>
+                                <h4 className="text-decoration-underline">Attentive Person</h4>
+                                <p><strong><i className="bi-person-fill"></i> Sujan Kumar Saha</strong></p>
+                                <p><strong><i className="bi-telephone-fill"></i> +45 71316770</strong></p>
                             </div>
                             <div className="col-lg-4">
                                 <Image src="/assets/badminton.jpg" width={200} height={300} className="img-fluid" alt="get-paid" />
@@ -131,12 +132,12 @@ const Accordion = () => {
                     <div className="accordion-body">
                         <div className="row bg-secondary text-light p-3">
                             <div className="col-lg-8">
-                                <h4>Running</h4>
-                                <p><strong><i className="bi-person-fill"></i> Srinivas Pindi</strong></p>
-                                <p><strong><i className="bi-telephone-fill"></i> +45 41760613</strong></p>
                                 <p><strong><i className="bi-calendar3"></i> Thursday</strong></p>
                                 <p><strong>Timings:</strong> @17:00</p>
                                 <p><strong><i className="bi-geo-alt-fill"></i> Ole Rømer-Skolen, Gadehavegårdsvej 1, 2630 Taastrup</strong></p>
+                                <h4 className="text-decoration-underline">Attentive Person</h4>
+                                <p><strong><i className="bi-person-fill"></i> Srinivas Pindi</strong></p>
+                                <p><strong><i className="bi-telephone-fill"></i> +45 41760613</strong></p>
                             </div>
                             <div className="col-lg-4">
                                 <Image src="/assets/running.jpg" width={200} height={300} className="img-fluid" alt="get-paid" />
@@ -155,12 +156,12 @@ const Accordion = () => {
                     <div className="accordion-body">
                         <div className="row bg-secondary text-light p-3">
                             <div className="col-lg-8">
-                                <h4>Yoga</h4>
-                                <p><strong><i className="bi-person-fill"></i> Sudhipthi Chandrasekaran</strong></p>
-                                <p><strong><i className="bi-telephone-fill"></i> +45 71490365</strong></p>
                                 <p><strong><i className="bi-calendar3"></i> Saturday</strong></p>
                                 <p><strong>Timings:</strong> 10:00 - 11:00</p>
                                 <p><strong><i className="bi-geo-alt-fill"></i> Ole Rømer-Skolen, Gadehavegårdsvej 1, 2630 Taastrup</strong></p>
+                                <h4 className="text-decoration-underline">Attentive Person</h4>
+                                <p><strong><i className="bi-person-fill"></i> Sudhipthi Chandrasekaran</strong></p>
+                                <p><strong><i className="bi-telephone-fill"></i> +45 71490365</strong></p>
                             </div>
                             <div className="col-lg-4">
                                 <Image src="/assets/yoga.jpg" width={200} height={300} className="img-fluid" alt="get-paid" />
