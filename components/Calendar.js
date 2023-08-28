@@ -13,7 +13,7 @@ const DisaCalendar = () => {
       .then(response => response.json())
       .then(data => setEvents(data))
       .catch(error => console.error('Error fetching events:', error));
-  }, []);
+  }, [])
 
   return (
     <section id="calendar" className="py-5">
