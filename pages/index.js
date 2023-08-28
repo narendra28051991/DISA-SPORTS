@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-light">
       <Title />
       <Navbar />
       <Introduction />
@@ -22,6 +22,6 @@ export default function Home() {
       <DisaCalendar />
       <Contact />
       <Updates />
-    </>
+    </div>
   )
 }
