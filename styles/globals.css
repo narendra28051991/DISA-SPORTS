@@ -8,8 +8,8 @@ nav {
   background-color: #EAC7C7 !important;
 }
 
-#intro h1 div {
-  color: #4682A9 !important;
+.fullform {
+  color: #116D6E !important;
 }
 
 #pricing .text-primary,
@@ -22,12 +22,12 @@ nav {
   border-color: #c29938 !important;
 }
 
-.bg-light,
+#pricing,
 #pricing .btn:hover {
   background-color: #fbf5e5 !important;
 }
 
-.bg-altlight {
+#calendar {
   background-color: #96B6C5 !important;
 }
 

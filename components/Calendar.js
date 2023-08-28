@@ -16,7 +16,7 @@ const DisaCalendar = () => {
   }, []);
 
   return (
-    <section id="calendar" className="bg-light py-5 bg-altlight">
+    <section id="calendar" className="py-5">
       <div className="container">
         <h1 className="text-center mb-4">Event Calendar</h1>
         <div className="row justify-content-center">
@@ -28,6 +28,7 @@ const DisaCalendar = () => {
                   events={events}
                   startAccessor="start"
                   endAccessor="end"
+                  views={['month', 'agenda']}
                   defaultView="month"
                   style={{ height: 500 }}
                   eventPropGetter={(event) => ({

@@ -3,7 +3,7 @@ import Link from "next/link";
 const Pricing = () => {
     // pricing plans
     return (
-        <section id="pricing" className="bg-light mt-5">
+        <section id="pricing" className="mt-5">
             <div className="container-lg">
                 <div className="text-center">
                 <h2>Sports Membership</h2>
