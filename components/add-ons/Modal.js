@@ -13,7 +13,7 @@ const Modal = () => {
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, exercitationem laboriosam nihil minus voluptatibus harum aliquam consequatur pariatur inventore dignissimos illum excepturi ratione ipsum sit iusto alias eligendi fugit laborum?</p>
+                        <p>DISA's primary goal revolves around nurturing family-oriented sports engagements that cross generational boundaries. Through innovative family sports activities, we're introducing a distinct element to Denmark's recreational landscape, promoting inclusive and active community participation.</p>
                         <label htmlFor="modal-email" className="form-label">Email address:</label>
                         <input
                             type="text"

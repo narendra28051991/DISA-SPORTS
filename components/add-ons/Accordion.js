@@ -12,20 +12,26 @@ const Accordion = () => {
                 </h2>
                 <div id="chapter-1" className="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapters">
                     <div className="accordion-body">
-                        <p className="fw-bold">MobilePay:</p>
-                        <div className="mx-auto col-sm-4 col-lg-6">
-                            <p>box02714</p>
-                        </div>
-                        <div className="mx-auto col-lg-4">
-                        <Image src="/assets/mobilepay.png" width={200} height={200} className="img-fluid" alt="get-paid"></Image>
-                        </div>
-                        <p className="fw-bold mt-3">Bank Transfer:</p>
-                        <div className="mx-auto col-sm-4 col-lg-6">
-                            <p>Reg. Nr.: <span className="fw-bold">2277</span> Kontonr.: <span className="fw-bold">9031961316</span></p>
-                            <p>IBAN DK: <span className="fw-bold">85 2000 9031 9613 16</span></p>
-                        </div>
-                        <div className="mx-auto col-lg-4">
-                        <Image src="/assets/bank-transfer.png" width={200} height={200} className="img-fluid" alt="get-paid"></Image>
+                        <div className="row bg-info text-light p-3">
+                            <div className="col-lg-8">
+                                <div className="mb-4">
+                                    <h4 className="fw-bold"><i className="bi-credit-card"></i> MobilePay:</h4>
+                                    <p>box02714</p>
+                                </div>
+                                <div>
+                                    <h4 className="fw-bold"><i className="bi-bank2"></i> Bank Transfer:</h4>
+                                    <p><span className="fw-bold">Reg. Nr.:</span> 2277 <span className="fw-bold">Kontonr.:</span> 9031961316</p>
+                                    <p><span className="fw-bold">IBAN DK:</span> 85 2000 9031 9613 16</p>
+                                </div>
+                            </div>
+                            <div className="col-lg-4">
+                                <div className="mb-4">
+                                    <Image src="/assets/mobilepay.jpg" width={200} height={200} className="img-fluid" alt="MobilePay" />
+                                </div>
+                                <div className="mb-4">
+                                    <Image src="/assets/bank-transfer.png" width={200} height={200} className="img-fluid" alt="Bank Transfer" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -38,19 +44,26 @@ const Accordion = () => {
                 </h2>
                 <div id="chapter-2" className="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
                     <div className="accordion-body">
-                        <p className="fw-bold">Celebrations:</p>
-                        <div className="mx-auto col-sm-4 col-lg-6">
-                            <p>Diwali - Nov 11, 2023</p>
-                            <p>Pongal - Jan 13, 2024</p>
-                        </div>
-                        <p className="fw-bold">Tournaments:</p>
-                        <div className="mx-auto col-sm-4 col-lg-6">
-                            <p>Carroms - Mar 16, 2024</p>
-                            <p>Badminton - Apr 27, 2024</p>
-                        </div>
-                        <p className="fw-bold">DISA:</p>
-                        <div className="mx-auto col-sm-4 col-lg-6">
-                            <p>Family Sports Day - Jun 15, 2024</p>
+                        <div className="row bg-info text-light p-3">
+                            <div className="col-lg-8">
+                                <h4>Celebrations</h4>
+                                <p><strong><i className="bi-calendar-event mx-4"></i> Diwali</strong></p>
+                                <p className="mb-4"><strong><i className="bi-calendar3 mx-4"></i> Nov 11, 2023</strong></p>
+                                <p><strong><i className="bi-calendar-event mx-4"></i> Pongal</strong></p>
+                                <p><strong><i className="bi-calendar3 mx-4"></i> Jan 13, 2024</strong></p>
+                            </div>
+                            <div className="col-lg-8">
+                                <h4>Tournaments</h4>
+                                <p><strong><i className="bi-calendar-event mx-4"></i> Carroms</strong></p>
+                                <p className="mb-4"><strong><i className="bi-calendar3 mx-4"></i> Mar 16, 2024</strong></p>
+                                <p><strong><i className="bi-calendar-event mx-4"></i> Badminton</strong></p>
+                                <p><strong><i className="bi-calendar3 mx-4"></i> Apr 27, 2024</strong></p>
+                            </div>
+                            <div className="col-lg-8">
+                                <h4>DISA</h4>
+                                <p><strong><i className="bi-calendar-event mx-4"></i> Family Sports Day</strong></p>
+                                <p><strong><i className="bi-calendar3 mx-4"></i> Jun 15, 2024</strong></p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -63,10 +76,18 @@ const Accordion = () => {
                 </h2>
                 <div id="chapter-3" className="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#chapters">
                     <div className="accordion-body">
-                        <p>Monday, 17:30 - 19:30</p>
-                        <p className="mx-4">Venue: Ole Rømer-Skolen, Gadehavegårdsvej 1, 2630 Taastrup</p>
-                        <div className="mx-auto col-lg-4">
-                        <Image src="/assets/carroms.jpg" width={200} height={300} className="img-fluid" alt="get-paid"></Image>
+                        <div className="row bg-secondary text-light p-3">
+                            <div className="col-lg-8">
+                                <h4>Carroms & Chess</h4>
+                                <p><strong><i className="bi-person-fill"></i> Yuvaraj Eswaramoorthy</strong></p>
+                                <p><strong><i className="bi-telephone-fill"></i> +45 71568296</strong></p>
+                                <p><strong><i className="bi-calendar3"></i> Monday</strong></p>
+                                <p><strong>Timings:</strong> 17:30 - 19:30</p>
+                                <p><strong><i className="bi-geo-alt-fill"></i> Ole Rømer-Skolen, Gadehavegårdsvej 1, 2630 Taastrup</strong></p>
+                            </div>
+                            <div className="col-lg-4">
+                                <Image src="/assets/carroms.jpg" width={200} height={300} className="img-fluid" alt="get-paid" />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -79,12 +100,23 @@ const Accordion = () => {
                 </h2>
                 <div id="chapter-4" className="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#chapters">
                     <div className="accordion-body">
-                        <p>Wednesday, 17:00 - 20:00</p>
-                        <p className="mx-4">Venue: Hall, Ole Rømer-Skolen, Gadehavegårdsvej 1, 2630 Taastrup</p>
-                        <p>Friday, 18:00 - 20:00</p>
-                        <p className="mx-4">Venue: Læringshuset, Skolebakken 1, 2640 Hedehusene</p>
-                        <div className="mx-auto col-lg-4">
-                        <Image src="/assets/badminton.jpg" width={200} height={300} className="img-fluid" alt="withdraw"></Image>
+                        <div className="row bg-secondary text-light p-3">
+                            <div className="col-lg-8">
+                                <h4>Badminton</h4>
+                                <p><strong><i className="bi-person-fill"></i> Vinod Kumar MS</strong></p>
+                                <p><strong><i className="bi-telephone-fill"></i> +45 20634927</strong></p>
+                                <p><strong><i className="bi-calendar3"></i> Wednesday</strong></p>
+                                <p><strong>Timings:</strong> 17:00 - 20:00</p>
+                                <p className="mb-4"><strong><i className="bi-geo-alt-fill"></i> Hall, Ole Rømer-Skolen, Gadehavegårdsvej 1, 2630 Taastrup</strong></p>
+                                <p><strong><i className="bi-person-fill"></i> Sujan Kumar Saha</strong></p>
+                                <p><strong><i className="bi-telephone-fill"></i> +45 71316770</strong></p>
+                                <p><strong><i className="bi-calendar3"></i> Friday</strong></p>
+                                <p><strong>Timings:</strong> 18:00 - 20:00</p>
+                                <p><strong><i className="bi-geo-alt-fill"></i> Læringshuset, Skolebakken 1, 2640 Hedehusene</strong></p>
+                            </div>
+                            <div className="col-lg-4">
+                                <Image src="/assets/badminton.jpg" width={200} height={300} className="img-fluid" alt="get-paid" />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -97,10 +129,18 @@ const Accordion = () => {
                 </h2>
                 <div id="chapter-5" className="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#chapters">
                     <div className="accordion-body">
-                        <p>Thursday, @17:00</p>
-                        <p className="mx-4">Venue: Ole Rømer-Skolen, Gadehavegårdsvej 1, 2630 Taastrup</p>
-                        <div className="mx-auto col-lg-4">
-                        <Image src="/assets/running.jpg" width={200} height={300} className="img-fluid" alt="withdraw"></Image>
+                        <div className="row bg-secondary text-light p-3">
+                            <div className="col-lg-8">
+                                <h4>Running</h4>
+                                <p><strong><i className="bi-person-fill"></i> Srinivas Pindi</strong></p>
+                                <p><strong><i className="bi-telephone-fill"></i> +45 41760613</strong></p>
+                                <p><strong><i className="bi-calendar3"></i> Thursday</strong></p>
+                                <p><strong>Timings:</strong> @17:00</p>
+                                <p><strong><i className="bi-geo-alt-fill"></i> Ole Rømer-Skolen, Gadehavegårdsvej 1, 2630 Taastrup</strong></p>
+                            </div>
+                            <div className="col-lg-4">
+                                <Image src="/assets/running.jpg" width={200} height={300} className="img-fluid" alt="get-paid" />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -113,10 +153,18 @@ const Accordion = () => {
                 </h2>
                 <div id="chapter-6" className="accordion-collapse collapse" aria-labelledby="heading-6" data-bs-parent="#chapters">
                     <div className="accordion-body">
-                        <p>Saturday, 10:00 - 11:00</p>
-                        <p className="mx-4">Venue: Ole Rømer-Skolen, Gadehavegårdsvej 1, 2630 Taastrup</p>
-                        <div className="mx-auto col-lg-4">
-                        <Image src="/assets/yoga.jpg" width={200} height={300} className="img-fluid" alt="withdraw"></Image>
+                        <div className="row bg-secondary text-light p-3">
+                            <div className="col-lg-8">
+                                <h4>Yoga</h4>
+                                <p><strong><i className="bi-person-fill"></i> Sudhipthi Chandrasekaran</strong></p>
+                                <p><strong><i className="bi-telephone-fill"></i> +45 71490365</strong></p>
+                                <p><strong><i className="bi-calendar3"></i> Saturday</strong></p>
+                                <p><strong>Timings:</strong> 10:00 - 11:00</p>
+                                <p><strong><i className="bi-geo-alt-fill"></i> Ole Rømer-Skolen, Gadehavegårdsvej 1, 2630 Taastrup</strong></p>
+                            </div>
+                            <div className="col-lg-4">
+                                <Image src="/assets/yoga.jpg" width={200} height={300} className="img-fluid" alt="get-paid" />
+                            </div>
                         </div>
                     </div>
                 </div>
