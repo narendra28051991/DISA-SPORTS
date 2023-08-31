@@ -7,7 +7,7 @@ const localizer = momentLocalizer(moment);
 
 const DisaCalendar = () => {
   const [events, setEvents] = useState([]);
-  const [isAgendaView, setIsAgendaView] = useState(false); // State to track the Agenda view
+  const [isAgendaView, setIsAgendaView] = useState(false);
 
   useEffect(() => {
     fetch('/api/events')
