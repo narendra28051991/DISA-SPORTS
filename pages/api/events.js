@@ -1,6 +1,6 @@
 const generateRecurringEvents = (title, daysOfWeek, bgColor) => {
-  const start = new Date(2023, 7, 14);
-  const end = new Date(2024, 5, 30);
+  const start = new Date(2024, 7, 14);
+  const end = new Date(2025, 5, 30);
 
   const events = daysOfWeek.reduce((accumulator, dayOfWeek) => {
     const recurringEvents = Array.from(
@@ -25,39 +25,41 @@ const generateRecurringEvents = (title, daysOfWeek, bgColor) => {
 
 const handler = (req, res) => {
   if (req.method === 'GET') {
-    const carromsChess = generateRecurringEvents('Carroms & Chess', [1], '#9F0D7F');
-    const badminton = generateRecurringEvents('Badminton', [3, 5], '#9F0D7F');
-    const running = generateRecurringEvents('Running', [4], '#9F0D7F');
-    const familyYoga = generateRecurringEvents('Family Yoga', [6], '#9F0D7F');
+    const carroms = generateRecurringEvents('Carroms', [1], '#9F0D7F');
+    const badminton = generateRecurringEvents('Badminton', [3, 5, 0], '#9F0D7F');
+    const cricket = generateRecurringEvents('Indoor Cricket', [0], '#9F0D7F');
+    const tableTennis = generateRecurringEvents('Table Tennis', [6], '#9F0D7F');
 
     const holidayPeriods = [
-        { start: new Date(2023, 9, 14), end: new Date(2023, 9, 22), title: 'Autumn', resource: '#61677A' },
-        { start: new Date(2023, 11, 20), end: new Date(2024, 0, 7), title: 'New Year and Christmas', resource: '#61677A' },
-        { start: new Date(2024, 1, 17), end: new Date(2024, 1, 25), title: 'Winter', resource: '#61677A' },
-        { start: new Date(2024, 2, 23), end: new Date(2024, 3, 1), title: 'Easter', resource: '#61677A' },
-        { start: new Date(2024, 4, 9), end: new Date(2024, 4, 12), title: 'Ancension', resource: '#61677A' },
-        { start: new Date(2024, 4, 18), end: new Date(2024, 4, 20), title: 'Whitsun', resource: '#61677A' },
-        { start: new Date(2024, 5, 5), end: new Date(2024, 5, 5), title: 'Constitution Day', resource: '#61677A' },
-        { start: new Date(2024, 5, 29), end: new Date(2024, 5, 30), title: 'Summer', resource: '#61677A' }
+        { start: new Date(2024, 9, 14), end: new Date(2024, 9, 20), title: 'Autumn', resource: '#61677A' },
+        { start: new Date(2024, 11, 23), end: new Date(2025, 0, 3), title: 'New Year and Christmas', resource: '#61677A' },
+        { start: new Date(2025, 1, 17), end: new Date(2025, 1, 23), title: 'Winter', resource: '#61677A' },
+        { start: new Date(2025, 3, 14), end: new Date(2025, 3, 20), title: 'Easter', resource: '#61677A' },
+        { start: new Date(2025, 4, 29), end: new Date(2025, 4, 30), title: 'Ancension', resource: '#61677A' },
+        { start: new Date(2025, 4, 18), end: new Date(2025, 4, 20), title: 'Whitsun', resource: '#61677A' },
+        { start: new Date(2025, 5, 5), end: new Date(2025, 5, 5), title: 'Constitution Day', resource: '#61677A' },
+        { start: new Date(2025, 5, 30), end: new Date(2025, 7, 8), title: 'Summer', resource: '#61677A' }
     ];
 
+    
     const celebrations = [
-        { start: new Date(2023, 10, 11), end: new Date(2023, 10, 11), title: 'Diwali', resource: '#FBA1B7' },
-        { start: new Date(2024, 0, 13), end: new Date(2024, 0, 13), title: 'Pongal', resource: '#FBA1B7' }
+        { start: new Date(2024, 10, 2), end: new Date(2024, 10, 2), title: 'Diwali', resource: '#FBA1B7' },
+        { start: new Date(2025, 0, 11), end: new Date(2025, 0, 11), title: 'Pongal', resource: '#FBA1B7' },
+        { start: new Date(2025, 2, 15), end: new Date(2025, 2, 15), title: 'Holi', resource: '#FBA1B7' },
+        { start: new Date(2025, 5, 14), end: new Date(2025, 5, 14), title: 'DISA Family Day', resource: '#FFC436' }
     ];
 
     const tournaments = [
-        { start: new Date(2024, 2, 16), end: new Date(2024, 2, 16), title: 'Carroms Tournament', resource: '#FFC436' },
-        { start: new Date(2024, 3, 27), end: new Date(2024, 3, 27), title: 'Badminton Tournament', resource: '#FFC436' },
-        { start: new Date(2024, 5, 15), end: new Date(2024, 5, 15), title: 'Family Sports Day', resource: '#FFC436' }
+        { start: new Date(2025, 2, 1), end: new Date(2025, 2, 1), title: 'Carrom Tournament', resource: '#FFC436' },
+        { start: new Date(2025, 3, 5), end: new Date(2025, 3, 5), title: 'Badminton Tournament', resource: '#FFC436' }
     ];
 
     // Combine all events and filter out overlapping events with holiday periods, celebrations, and tournaments
     const allEvents = [
-        ...carromsChess,
+        ...carroms,
         ...badminton,
-        ...running,
-        ...familyYoga,
+        ...cricket,
+        ...tableTennis,
     ];
 
     const filteredEvents = allEvents.filter((event) => {
