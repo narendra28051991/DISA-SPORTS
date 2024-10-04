@@ -48,21 +48,24 @@ const Accordion = () => {
                             <div className="col-lg-8">
                                 <h4>Celebrations</h4>
                                 <p><strong><i className="bi-calendar-event mx-4"></i> Diwali</strong></p>
-                                <p className="mb-4"><strong><i className="bi-calendar3 mx-4"></i> Nov 11, 2023</strong></p>
+                                <p className="mb-4"><strong><i className="bi-calendar3 mx-4"></i> Nov 02, 2024</strong></p>
                                 <p><strong><i className="bi-calendar-event mx-4"></i> Pongal</strong></p>
-                                <p><strong><i className="bi-calendar3 mx-4"></i> Jan 13, 2024</strong></p>
+                                <p><strong><i className="bi-calendar3 mx-4"></i> Jan 11, 2025</strong></p>
+                                <p><strong><i className="bi-calendar-event mx-4"></i> Holi</strong></p>
+                                <p><strong><i className="bi-calendar3 mx-4"></i> Mar 15, 2025</strong></p>
+
                             </div>
                             <div className="col-lg-8">
                                 <h4>Tournaments</h4>
-                                <p><strong><i className="bi-calendar-event mx-4"></i> Carroms</strong></p>
-                                <p className="mb-4"><strong><i className="bi-calendar3 mx-4"></i> Mar 16, 2024</strong></p>
+                                <p><strong><i className="bi-calendar-event mx-4"></i> Carrom</strong></p>
+                                <p className="mb-4"><strong><i className="bi-calendar3 mx-4"></i> Mar 01, 2025</strong></p>
                                 <p><strong><i className="bi-calendar-event mx-4"></i> Badminton</strong></p>
-                                <p><strong><i className="bi-calendar3 mx-4"></i> Apr 27, 2024</strong></p>
+                                <p><strong><i className="bi-calendar3 mx-4"></i> Apr 05, 2025</strong></p>
                             </div>
                             <div className="col-lg-8">
                                 <h4>DISA</h4>
-                                <p><strong><i className="bi-calendar-event mx-4"></i> Family Sports Day</strong></p>
-                                <p><strong><i className="bi-calendar3 mx-4"></i> Jun 15, 2024</strong></p>
+                                <p><strong><i className="bi-calendar-event mx-4"></i> DISA Family Day</strong></p>
+                                <p><strong><i className="bi-calendar3 mx-4"></i> Jun 14, 2025</strong></p>
                             </div>
                         </div>
                     </div>
@@ -71,7 +74,7 @@ const Accordion = () => {
             <div className="accordion-item">
                 <h2 className="accordion-header" id="heading-3">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-3">
-                        Activity - 1: Carroms & Chess
+                        Activity - 1: Carroms
                     </button>
                 </h2>
                 <div id="chapter-3" className="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#chapters">
@@ -86,7 +89,7 @@ const Accordion = () => {
                                 <p><strong><i className="bi-telephone-fill"></i> +45 71568296</strong></p>
                             </div>
                             <div className="col-lg-4">
-                                <Image src="/assets/carroms.jpg" width={200} height={300} className="img-fluid" alt="get-paid" />
+                                <Image src="/assets/carroms-new.jpg" width={200} height={300} className="img-fluid" alt="get-paid" />
                             </div>
                         </div>
                     </div>
@@ -114,9 +117,16 @@ const Accordion = () => {
                                 <h4 className="text-decoration-underline">Attentive Person</h4>
                                 <p><strong><i className="bi-person-fill"></i> Sujan Kumar Saha</strong></p>
                                 <p><strong><i className="bi-telephone-fill"></i> +45 71316770</strong></p>
+
+                                <p><strong><i className="bi-calendar3"></i> Sunday</strong></p>
+                                <p><strong>Timings:</strong> 16:00 - 18:00</p>
+                                <p><strong><i className="bi-geo-alt-fill"></i> Borne og Kulturhuset, Taastrupgardsvej, 75, 2630 Taastrup</strong></p>
+                                <h4 className="text-decoration-underline">Attentive Person</h4>
+                                <p><strong><i className="bi-person-fill"></i> Sujan Kumar Saha</strong></p>
+                                <p><strong><i className="bi-telephone-fill"></i> +45 71316770</strong></p>
                             </div>
                             <div className="col-lg-4">
-                                <Image src="/assets/badminton.jpg" width={200} height={300} className="img-fluid" alt="get-paid" />
+                                <Image src="/assets/badminton-new.jpg" width={200} height={300} className="img-fluid" alt="get-paid" />
                             </div>
                         </div>
                     </div>
@@ -125,22 +135,22 @@ const Accordion = () => {
             <div className="accordion-item">
                 <h2 className="accordion-header" id="heading-5">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-5" aria-expanded="false" aria-controls="chapter-5">
-                    Activity - 3: Running
+                    Activity - 3: Indoor Cricket
                     </button>
                 </h2>
                 <div id="chapter-5" className="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#chapters">
                     <div className="accordion-body">
                         <div className="row bg-secondary text-light p-3">
                             <div className="col-lg-8">
-                                <p><strong><i className="bi-calendar3"></i> Thursday</strong></p>
-                                <p><strong>Timings:</strong> @17:00</p>
-                                <p><strong><i className="bi-geo-alt-fill"></i> Ole Rømer-Skolen, Gadehavegårdsvej 1, 2630 Taastrup</strong></p>
+                                <p><strong><i className="bi-calendar3"></i> Sunday</strong></p>
+                                <p><strong>Timings:</strong> 14:00 - 16:00</p>
+                                <p><strong><i className="bi-geo-alt-fill"></i> Borne og Kulturhuset, Taastrupgardsvej, 75, 2630 Taastrup</strong></p>
                                 <h4 className="text-decoration-underline">Attentive Person</h4>
-                                <p><strong><i className="bi-person-fill"></i> Srinivas Pindi</strong></p>
-                                <p><strong><i className="bi-telephone-fill"></i> +45 41760613</strong></p>
+                                <p><strong><i className="bi-person-fill"></i> Akil</strong></p>
+                                <p><strong><i className="bi-telephone-fill"></i> +45 50173103</strong></p>
                             </div>
                             <div className="col-lg-4">
-                                <Image src="/assets/running.jpg" width={200} height={300} className="img-fluid" alt="get-paid" />
+                                <Image src="/assets/cricket-new.jpeg" width={200} height={300} className="img-fluid" alt="get-paid" />
                             </div>
                         </div>
                     </div>
@@ -149,7 +159,7 @@ const Accordion = () => {
             <div className="accordion-item">
                 <h2 className="accordion-header" id="heading-6">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-6" aria-expanded="false" aria-controls="chapter-6">
-                    Activity - 4: Yoga
+                    Activity - 4: Table Tennis
                     </button>
                 </h2>
                 <div id="chapter-6" className="accordion-collapse collapse" aria-labelledby="heading-6" data-bs-parent="#chapters">
@@ -157,14 +167,14 @@ const Accordion = () => {
                         <div className="row bg-secondary text-light p-3">
                             <div className="col-lg-8">
                                 <p><strong><i className="bi-calendar3"></i> Saturday</strong></p>
-                                <p><strong>Timings:</strong> 10:00 - 11:00</p>
-                                <p><strong><i className="bi-geo-alt-fill"></i> Ole Rømer-Skolen, Gadehavegårdsvej 1, 2630 Taastrup</strong></p>
+                                <p><strong>Timings:</strong> 16:00 - 18:00</p>
+                                <p><strong><i className="bi-geo-alt-fill"></i> Festsalen, Parkskolen, Parkvej 76, 2630 Taastrup</strong></p>
                                 <h4 className="text-decoration-underline">Attentive Person</h4>
-                                <p><strong><i className="bi-person-fill"></i> Sudhipthi Chandrasekaran</strong></p>
-                                <p><strong><i className="bi-telephone-fill"></i> +45 71490365</strong></p>
+                                <p><strong><i className="bi-person-fill"></i> Name to confirm</strong></p>
+                                <p><strong><i className="bi-telephone-fill"></i> +45 9999999</strong></p>
                             </div>
                             <div className="col-lg-4">
-                                <Image src="/assets/yoga.jpg" width={200} height={300} className="img-fluid" alt="get-paid" />
+                                <Image src="/assets/table-tennis.jpeg" width={200} height={300} className="img-fluid" alt="get-paid" />
                             </div>
                         </div>
                     </div>
