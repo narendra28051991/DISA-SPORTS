@@ -84,7 +84,7 @@ const Accordion = () => {
                                 <p><strong><i className="bi-calendar3"></i> Monday</strong></p>
                                 <p><strong>Timings:</strong> 17:30 - 19:30</p>
                                 <p><strong><i className="bi-geo-alt-fill"></i> Ole Rømer-Skolen, Gadehavegårdsvej 1, 2630 Taastrup</strong></p>
-                                <h4 className="text-decoration-underline">Attentive Person</h4>
+                                <h4 className="text-decoration-underline">Coordinator:</h4>
                                 <p><strong><i className="bi-person-fill"></i> Yuvaraj Eswaramoorthy</strong></p>
                                 <p><strong><i className="bi-telephone-fill"></i> +45 71568296</strong></p>
                             </div>
@@ -108,22 +108,26 @@ const Accordion = () => {
                                 <p><strong><i className="bi-calendar3"></i> Wednesday</strong></p>
                                 <p><strong>Timings:</strong> 17:00 - 20:00</p>
                                 <p className="mb-4"><strong><i className="bi-geo-alt-fill"></i> Hall, Ole Rømer-Skolen, Gadehavegårdsvej 1, 2630 Taastrup</strong></p>
-                                <h4 className="text-decoration-underline">Attentive Person</h4>
-                                <p><strong><i className="bi-person-fill"></i> Vinod Kumar MS</strong></p>
-                                <p><strong><i className="bi-telephone-fill"></i> +45 20634927</strong></p>
+                                <h4 className="text-decoration-underline">Coordinator:</h4>
+                                <p><strong><i className="bi-person-fill"></i> Adhir Mehta</strong></p>
+                                <p><strong><i className="bi-telephone-fill"></i> +45 53747110</strong></p>
+
                                 <p><strong><i className="bi-calendar3"></i> Friday</strong></p>
                                 <p><strong>Timings:</strong> 18:00 - 20:00</p>
                                 <p><strong><i className="bi-geo-alt-fill"></i> Læringshuset, Skolebakken 1, 2640 Hedehusene</strong></p>
-                                <h4 className="text-decoration-underline">Attentive Person</h4>
+                                <h4 className="text-decoration-underline">Coordinator:</h4>
                                 <p><strong><i className="bi-person-fill"></i> Sujan Kumar Saha</strong></p>
                                 <p><strong><i className="bi-telephone-fill"></i> +45 71316770</strong></p>
 
                                 <p><strong><i className="bi-calendar3"></i> Sunday</strong></p>
                                 <p><strong>Timings:</strong> 16:00 - 18:00</p>
                                 <p><strong><i className="bi-geo-alt-fill"></i> Borne og Kulturhuset, Taastrupgardsvej, 75, 2630 Taastrup</strong></p>
-                                <h4 className="text-decoration-underline">Attentive Person</h4>
-                                <p><strong><i className="bi-person-fill"></i> Sujan Kumar Saha</strong></p>
-                                <p><strong><i className="bi-telephone-fill"></i> +45 71316770</strong></p>
+                                <h4 className="text-decoration-underline">Coordinators:</h4>
+                                <p><strong><i className="bi-person-fill"></i> Srinivas Pindi</strong></p>
+                                <p><strong><i className="bi-telephone-fill"></i> +45 41760613</strong></p>
+                                <p><strong><i className="bi-person-fill"></i> Vinod Kumar MS</strong></p>
+                                <p><strong><i className="bi-telephone-fill"></i> +45 20634927</strong></p>
+
                             </div>
                             <div className="col-lg-4">
                                 <Image src="/assets/badminton-new.jpg" width={200} height={300} className="img-fluid" alt="get-paid" />
@@ -145,7 +149,7 @@ const Accordion = () => {
                                 <p><strong><i className="bi-calendar3"></i> Sunday</strong></p>
                                 <p><strong>Timings:</strong> 14:00 - 16:00</p>
                                 <p><strong><i className="bi-geo-alt-fill"></i> Borne og Kulturhuset, Taastrupgardsvej, 75, 2630 Taastrup</strong></p>
-                                <h4 className="text-decoration-underline">Attentive Person</h4>
+                                <h4 className="text-decoration-underline">Coordinator:</h4>
                                 <p><strong><i className="bi-person-fill"></i> Akil</strong></p>
                                 <p><strong><i className="bi-telephone-fill"></i> +45 50173103</strong></p>
                             </div>
@@ -169,9 +173,11 @@ const Accordion = () => {
                                 <p><strong><i className="bi-calendar3"></i> Saturday</strong></p>
                                 <p><strong>Timings:</strong> 16:00 - 18:00</p>
                                 <p><strong><i className="bi-geo-alt-fill"></i> Festsalen, Parkskolen, Parkvej 76, 2630 Taastrup</strong></p>
-                                <h4 className="text-decoration-underline">Attentive Person</h4>
-                                <p><strong><i className="bi-person-fill"></i> Name to confirm</strong></p>
-                                <p><strong><i className="bi-telephone-fill"></i> +45 9999999</strong></p>
+                                <h4 className="text-decoration-underline">Coordinators:</h4>
+                                <p><strong><i className="bi-person-fill"></i> Nilesh Engineer</strong></p>
+                                <p><strong><i className="bi-telephone-fill"></i> +45 31272703</strong></p>
+                                <p><strong><i className="bi-person-fill"></i> Vinod Kumar MS</strong></p>
+                                <p><strong><i className="bi-telephone-fill"></i> +45 20634927</strong></p>
                             </div>
                             <div className="col-lg-4">
                                 <Image src="/assets/table-tennis.jpeg" width={200} height={300} className="img-fluid" alt="get-paid" />
