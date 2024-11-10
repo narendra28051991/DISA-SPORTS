@@ -11,7 +11,7 @@ const Pricing = () => {
                 </div>
 
                 <div className="text-center mt-3">
-                    <p className="text-muted">Validity: August 2023 - June 2024</p>
+                    <p className="text-muted">Validity: August 2024 - June 2025</p>
                 </div>
 
                 <div className="row my-5 g-0 align-items-center justify-content-center">

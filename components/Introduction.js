@@ -25,7 +25,7 @@ const Introduction = () => {
                     {/* tooltip */}
                     <span className="tt" data-bs-placement="bottom" title="DISA logo">
                         <Image
-                            src="/assets/disa-logo.png"
+                            src="/assets/disa-logo-new.JPG"
                             className="img-fluid"
                             width={500}
                             height={500}
